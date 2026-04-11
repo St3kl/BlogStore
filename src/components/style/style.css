@@ -1,0 +1,409 @@
+body{
+    /* background: red; */
+    /* font-family: Inter, Roboto, Satoshi, sans-serif; */
+    font-family: Poppins, Montserrat, Space Grotesk sans-serif;
+}
+
+/* ======Header===== */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: rgba(74, 120, 245, 0.979); */
+    height: 75px;
+}
+/* =====Logo====== */
+.logo{
+    position: relative;
+    cursor: pointer;
+    /* background: red; */
+    left: 30px;
+}
+.logo_img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    /* border: solid 10px #000; */
+    object-fit: cover;
+    
+}
+.log_sty{
+    display: block;
+    width: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.b_log{
+    display: none;
+      height: 80px;
+      width: 80px;
+   
+}
+.l_log{
+    width: 50px;
+    height: 50px;
+}
+/* ======Menu btn===== */
+.menu_btn{
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparents;
+    display: none;
+}
+.icon_btn{
+    background: transparent;
+    border: none;
+    
+}
+/* =====NavBar====== */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background: red; */
+    padding: 8px;
+    /* background: red; */
+    margin-right: 30px;
+}
+.menu_items{
+    list-style: none;
+    /* background: green; */
+    display: flex;
+    /* flex-direction:column;  */
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+.list_item{
+    /* background: red; */
+    margin: 10px;
+    padding: 0px 5px;
+    font-size:0.8rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+    text-align: center;
+     transition: all 0.3s ease-in-out;
+}
+.list_item:hover{
+  /* background: red; */
+  color:rgba(183, 195, 252, 0.514);
+}
+.cont_btn{
+    font-family: Poppins, Montserrat, Space Grotesk;
+    font-size: 0.9rem;
+    font-weight: 505;
+    letter-spacing: 1.2px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(18, 59, 240, 0.479);
+    box-shadow: 0 0 8px rgba(164, 179, 250, 0.329);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.cont_btn:hover{
+ background: rgba(18, 59, 240, 0.26);
+ color:rgba(183, 195, 252, 0.514) ;
+}
+/* ===========Hero Section------------------------ */
+/* =========== */
+/* .hero_bg{
+  background:  linear-gradient(rgba(0, 254, 246, 0.508), rgba(0, 255, 247, 0.322)), url(../Img/img_001.webp) center no-repeat;
+
+} */
+ /* .hero{
+    position: relative;
+ } */
+
+.bannerHero{
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url(../../assets/img/banner_bg.svg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    /* background: linear-gradient(rgba(89, 155, 206, 0.2), rgba(80, 197, 17, 0.2)); */
+    display: block;
+    width: 100%;
+    height: 60vh;
+    top:-150px;
+    z-index: -100;
+}
+
+.openDoc{
+    position: absolute;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;align-items: start;
+    padding: 4px 8px;
+    margin: 50px 8px -10px 50px;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    /* background: rgb(255, 0, 0); */
+}
+.opening{
+    font-size: 0.8rem;
+}
+.openD{
+    padding: 2px 4px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    margin-top:5px ;
+    /* line-height: 1; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.centralBody{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.skills_items{
+    list-style: none;
+    display:flex;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:73%;
+    left: 50%;
+    transform: translateX(-57%);
+}
+
+.skill{
+    padding: 3px 10px;
+    background:rgba(255, 255, 255, 0.63);
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    
+}
+.great{
+    position: absolute;
+    bottom: 40px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.closeDoc{
+    position: absolute;
+    bottom: 23px;
+    right: 50px;
+}
+/* ===========------------------------ */
+/* =========== */
+/* Intro */
+/* ===========------------------------ */
+.intro{
+    background:rgb(37, 45, 71);
+    padding: 150px 8px;
+    padding-top: 50px;
+    position: relative;
+    top: -180px;
+    z-index: 10;
+}
+.title{
+    padding: 8px 0;
+}
+.info{
+    padding: 10px 0;
+}
+.access_btn {
+    padding: 10px 16px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(50, 83, 143, 0.795);
+    box-shadow: rgba(18, 59, 240, 0.479);
+    font-size: 0.9rem;
+}
+.btn{
+     padding: 10px 16px;
+     margin: 8px;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(50, 83, 143, 0.795);
+    box-shadow: rgba(18, 59, 240, 0.479);
+    font-size: 0.9rem;
+}
+/* ===========------------------------ */
+/* =========== */
+/* HomeBlog */
+/* ===========------------------------ */
+.home_blog{
+ background: rgba(50, 83, 143, 0.795);
+position: relative;
+top:-180px;
+padding:16px 8px;
+padding-top: 50px;
+}
+.article_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 8px;
+    background: rgba(50, 83, 143, 0.795);
+    /* background: green; */
+}
+.errorSms{
+    padding: 10px 18px;
+    background: rgba(250, 1, 1, 0.541);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    display: none;
+}
+.blog_article{
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    padding: 25px 16px;
+     background: rgba(12, 24, 129, 0.26);
+      box-shadow: 0 2px 5px rgba(12, 24, 129, 0.308);
+}
+.topic{
+    
+    background:rgba(12, 23, 129, 0.74);
+    display: inline-block;
+    padding:5px 16px;
+    border-radius: 8px;align-self: flex-start;
+    font-size: 0.8rem;
+} .topic_article{
+    width: 600px;
+    text-align: left;
+   
+    padding: 15px 18px;
+    margin: 10px 0;
+    border: none;
+  
+}
+.article_info{
+    display: none;
+}
+.author_info{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    padding: 8px 8px ;
+    border-radius: 50%;
+    background: red;
+    margin: 10px;
+}
+/* ===========------------------------ */
+/* =========== */
+/* HomeTemplate */
+/* ===========------------------------ */
+.ready_template{
+    background: red;
+    margin-top: -180px;
+    padding: 100px 0;
+}
+.template{
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 800px;
+}
+.img_template{
+    width: 350px;
+    height: 200px;
+    background: blue;
+}
+.template_info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start;
+    align-items: start; */
+}
+.small_title{
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.63);
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+.temp_title{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.info_temp{
+    align-self: flex-start;
+    /* background: red; */
+    text-align: left;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.tools{
+    display: flex;
+    justify-content: space-between;
+    /* background: rebeccapurple; */
+    
+}
+.temp_skills{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blog_btn{
+    padding: 20px 0;
+}
+/* ===========------------------------ */
+/* =========== */
+/* Footer */
+/* ===========------------------------ */
+.footer{
+    background: red;
+    padding: 50px 0;
+    margin-top: -50px;
+}
+/* ===========------------------------ */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
+/* =========== */
