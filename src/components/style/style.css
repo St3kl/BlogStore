@@ -1,3 +1,25 @@
+ :root{
+  --clr-01: #142C69; 
+  --clr-02: #03153E; 
+  --clr-03: #03143C; 
+  --clr-04: #071E54; 
+  --clr-05: #2B1E7F; 
+  --clr-06: #062470; 
+  --clr-07: #032674; 
+  --clr-08: #3498db; 
+  --clr-01a: #142c697a; 
+  --clr-02a: #03153e9c; 
+  --clr-03a: #03143c9d; 
+  --clr-04a: #071e5483; 
+  --clr-05a: #2b1e7f91; 
+  --clr-06a: #0624707e; 
+  --clr-07a: #0327748a; 
+  --clr-08a: #3498db73; 
+ 
+ }
+
+
+
 body{
     /* background: red; */
     /* font-family: Inter, Roboto, Satoshi, sans-serif; */
