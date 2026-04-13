@@ -1,0 +1,113 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: rgba(74, 120, 245, 0.979); */
+    height: 75px;
+}
+/* =====Logo====== */
+.logo{
+    position: relative;
+    cursor: pointer;
+    /* background: red; */
+    left: 30px;
+}
+.logo_img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    /* border: solid 10px #000; */
+    object-fit: cover;
+    
+}
+.log_sty{
+    display: block;
+    width: 100%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.b_log{
+    display: none;
+      height: 80px;
+      width: 80px;
+   
+}
+.l_log{
+    width: 50px;
+    height: 50px;
+}
+.menu_btn{
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparents;
+    display: none;
+}
+.icon_btn{
+    background: transparent;
+    border: none;
+    
+}
+/* =====NavBar====== */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background: red; */
+    padding: 8px;
+    /* background: red; */
+    margin-right: 30px;
+}
+.menu_items{
+    list-style: none;
+    /* background: green; */
+    display: flex;
+    /* flex-direction:column;  */
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-right: 25px;
+}
+.list_item{
+    /* background: red; */
+    margin: 10px;
+    padding: 0px 5px;
+    font-size:0.8rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+    text-align: center;
+     transition: all 0.3s ease-in-out;
+}
+.list_item:hover{
+  /* background: red; */
+  color:rgba(183, 195, 252, 0.514);
+}
+
+.cont_btn{
+    font-family: Poppins, Montserrat, Space Grotesk;
+    font-size: 0.9rem;
+    font-weight: 505;
+    color:#B5D4F4;
+    letter-spacing: 1.2px;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 5px;
+    /* background: rgba(18, 59, 240, 0.479); */
+    background: #378ADD;
+    box-shadow: 0 0 8px rgba(164, 179, 250, 0.329);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.cont_btn:hover{
+ background: #85b6ebbd
+;
+ color:#E6F1FB ;
+}

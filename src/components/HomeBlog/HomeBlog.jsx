@@ -1,6 +1,7 @@
 // Import Modules
 import React from "react";
 import "../style/style.css";
+import "./HomeBlog.css";
 
 const HomeBlog = ()=>{
 

@@ -1,0 +1,63 @@
+/* =========== */
+/* HomeTemplate */
+/* ===========------------------------ */
+.ready_template{
+    /* background: red; */
+    margin-top: -180px;
+    padding: 100px 0;
+}
+.template{
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 800px;
+}
+.img_template{
+    width: 350px;
+    height: 200px;
+    background: blue;
+}
+.template_info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start;
+    align-items: start; */
+}
+.small_title{
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.63);
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-bottom: -15px;
+}
+.temp_title{
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.info_temp{
+    align-self: flex-start;
+    /* background: red; */
+    text-align: left;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.tools{
+    display: flex;
+    justify-content: space-between;
+    /* background: rebeccapurple; */
+    
+}
+.temp_skills{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.blog_btn{
+    padding: 20px 0;
+}
+/* ===========------------------------ */

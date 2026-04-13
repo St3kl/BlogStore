@@ -1,0 +1,96 @@
+/* ===========Hero Section------------------------ */
+/* =========== */
+/* .hero_bg{
+  background:  linear-gradient(rgba(0, 254, 246, 0.508), rgba(0, 255, 247, 0.322)), url(../Img/img_001.webp) center no-repeat;
+
+} */
+ /* .hero{
+    position: relative;
+ } */
+
+.bannerHero{
+    position: relative;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-image: url(../../assets/img/banner_bg.svg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    /* background: linear-gradient(rgba(89, 155, 206, 0.2), rgba(80, 197, 17, 0.2)); */
+    display: block;
+    width: 100%;
+    height: 65vh;
+    top:-150px;
+    z-index: -100;
+}
+
+.openDoc{
+    position: absolute;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;align-items: start;
+    padding: 4px 8px;
+    margin: 50px 8px -10px 50px;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    /* background: rgb(255, 0, 0); */
+}
+.opening{
+    font-size: 0.8rem;
+}
+.openD{
+    padding: 2px 4px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    margin-top:5px ;
+    /* line-height: 1; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+.centralBody{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .hello{
+    color: red;
+} */
+.skills_items{
+    list-style: none;
+    display:flex;
+    /* background: red; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translateX(-57%);
+}
+
+.skill{
+    padding: 3px 10px;
+    background:rgba(255, 255, 255, 0.63);
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    
+}
+.great{
+    position: absolute;
+    bottom: 75px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.closeDoc{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
+/* ===========------------------------ */
+/* =========== */

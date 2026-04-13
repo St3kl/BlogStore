@@ -1,6 +1,7 @@
 // Import Modules
 import React from "react";
 import "../style/style.css";
+import "./Intro.css";
 
 const Intro = ()=>{
  return (
@@ -17,8 +18,8 @@ const Intro = ()=>{
        </div>
        {/* ====== */}
        <div className="access">
-        <button className="access_btn">View My Work →</button>
-        <button className="access_btn">browse Templates</button>
+        <button className=" btn access_btn">View My Work →</button>
+        <button className=" btn access_btn">browse Templates</button>
        </div>
        {/* ====== */}
 

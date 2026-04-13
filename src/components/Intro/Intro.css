@@ -1,0 +1,48 @@
+/* Intro */
+/* ===========------------------------ */
+.intro{
+    background:#0C447C;
+    padding: 150px 8px;
+    padding-top: 100px;
+    position: relative;
+    top: -180px;
+    z-index: 10;
+    color: #E6F1FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid #E6F1FB
+;
+}
+.title{
+    padding: 8px 0;
+}
+.info{
+    padding: 10px 0;
+}
+.phrase{
+    font-size: 2rem;
+}
+.access_btn {
+    padding: 10px 16px;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(50, 83, 143, 0.795);
+    box-shadow: rgba(18, 59, 240, 0.479);
+    font-size: 0.9rem;
+}
+.btn{
+     padding: 10px 16px;
+     margin: 8px;
+     border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(50, 83, 143, 0.795);
+    box-shadow: 0 2px 5px rgba(121, 146, 255, 0.336);
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+/* ===========------------------------ */

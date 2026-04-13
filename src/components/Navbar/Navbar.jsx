@@ -3,7 +3,8 @@ import React from "react";
 import {FaBars} from "react-icons/fa";
 import logo_s from "../../assets/img/logo_short.png";
 import logo_l from "../../assets/img/logo_long.png";
-import "../style/style.css"
+import "../style/style.css";
+import "./Navbar.css";
 
 
 

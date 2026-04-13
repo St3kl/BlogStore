@@ -2,6 +2,7 @@
 import React from "react";
 import heroBanner from "../../assets/img/banner_bg.svg";
 import "../style/style.css";
+import "./Hero.css";
 
 
 const  Hero = (props) =>{
@@ -21,7 +22,7 @@ const  Hero = (props) =>{
             </div>
             {/*  */}
             <div className="centralBody">
-               <h3 className="hello">{props.helloWorld}</h3>
+               <h3 className="hello">{props.hello}</h3>
                <h1 className="web">{props.build}</h1>
                <h2 className="skills">{props.skills}</h2>
             </div>

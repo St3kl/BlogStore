@@ -1,0 +1,63 @@
+/* =========== */
+/* HomeBlog */
+/* ===========------------------------ */
+.home_blog{
+ background: rgba(50, 83, 143, 0.795);
+position: relative;
+top:-180px;
+padding:16px 8px;
+padding-top: 50px;
+}
+.article_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 8px;
+    background: rgba(50, 83, 143, 0.795);
+    /* background: green; */
+}
+.errorSms{
+    padding: 10px 18px;
+    /* background: rgba(250, 1, 1, 0.541); */
+    border-radius: 5px;
+    font-size: 0.8rem;
+    display: none;
+}
+.blog_article{
+    display: flex;
+    flex-direction: column;
+    /* background: red; */
+    padding: 25px 16px;
+     background: rgba(12, 24, 129, 0.26);
+      box-shadow: 0 2px 5px rgba(12, 24, 129, 0.308);
+}
+.topic{
+    
+    background:rgba(12, 23, 129, 0.74);
+    display: inline-block;
+    padding:5px 16px;
+    border-radius: 8px;align-self: flex-start;
+    font-size: 0.8rem;
+} .topic_article{
+    width: 600px;
+    text-align: left;
+   
+    padding: 15px 18px;
+    margin: 10px 0;
+    border: none;
+  
+}
+.article_info{
+    display: none;
+}
+.author_info{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    padding: 8px 8px ;
+    border-radius: 50%;
+    background: red;
+    margin: 10px;
+}
+/* ===========------------------------ */
