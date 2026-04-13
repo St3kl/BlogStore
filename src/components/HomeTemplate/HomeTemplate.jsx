@@ -24,9 +24,9 @@ const HomeTemplate = (props)=>{
                         <div className="info_temp">A sleek, dark-themed portfolio for developers. Sections for hero, projects, skills, and contact. Zero dependencies.</div>
                         <div className="tools">
                             <div className="temp_skills">
-                                <div className="skill">HTML</div>
-                                <div className="skill">CSS</div>
-                                <div className="skill">JS</div>
+                                <div className="skill">{props.skillH}</div>
+                                <div className="skill">{props.skillC}</div>
+                                <div className="skill">{props.skillJ}</div>
                             </div>
                             <div className="button_btn">
                                 <button className="btn"> use template →</button>

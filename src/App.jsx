@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import heroImg from './assets/hero.png'
 // Import Element
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/hero';
+import Hero from './components/Hero/Hero';
 import Intro from './components/Intro/Intro';
 import HomeBlog from './components/HomeBlog/HomeBlog';
 import Footer from './components/Footer/Footer';
@@ -15,16 +15,40 @@ import HomeTemplate from './components/HomeTemplate/HomeTemplate';
 // import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+      // convertirlo en un array de objetos
+const bg_info = [
+  {
+ openHtml : "<html>",
+ openBody : "<body>",
+ closeHtml : "</html>",
+ closeBody : "</body>",
+ dev : "{ dev: true }",
+ helloWorld :"// hello, world",
+ build : "I build the web." ,     
+ skills : "Front-end · Back-end · Everything in between",
+ skillHtml : "HTML",
+ skillCss : "CSS",
+ skillJs : "JS",
+ skillReact : "React",
+ skillNode : "Node.js",
+ great : "let's build something great together →",
+    }
+]
+    console.log(bg_info)
+
 
   return (
     // <>
    <div>
      <Navbar></Navbar>
-     <Hero></Hero>
+     <Hero openH={bg_info[0].openHtml} openB={bg_info[0].openBody} closeH={bg_info[0].closeHtml} closeB={bg_info[0].closeBody}
+     dev={bg_info[0].dev} hello={bg_info[0].helloWorld} build={bg_info[0].build} skills={bg_info[0].skills}
+     skillH={bg_info[0].skillHtml} skillC={bg_info[0].skillCss} skillJ={bg_info[0].skillJs}
+     skillR={bg_info[0].skillReact} skillN={bg_info[0].skillNode} great={bg_info[0].great}></Hero>
      <Intro></Intro>
      <HomeBlog></HomeBlog>
-     <HomeTemplate></HomeTemplate>
+     <HomeTemplate  skillH={bg_info[0].skillHtml} skillC={bg_info[0].skillCss} skillJ={bg_info[0].skillJs}></HomeTemplate>
      <Footer></Footer>
    </div>
       // {/* <section id="center">
