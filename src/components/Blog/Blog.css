@@ -1,0 +1,74 @@
+
+.blog_topics{
+    display: flex;
+    /* background: red; */
+    padding:5px 0  5px 10px;
+}
+.blog_topic{
+     background:rgba(255, 255, 255, 0.63);
+     border-radius:8px ;
+     padding: 5px 8px;
+     font-size: 0.8rem;
+     margin: 5px;
+}
+
+.newest{
+    display:flex;
+    background: rgb(15, 41, 15);
+    padding: 16px 20px;
+    align-items: center;
+    margin: 20px 16px;
+    border-radius: 8px;
+}
+.postAuth{
+    background: red;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.post_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 2px;
+    align-items: start;
+    margin-left: 15px;
+}
+.authName{
+    font-weight: 600;
+    /* font-size: 1rem; */
+}
+
+.related_post{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* align-items: center; */
+}
+.relate_title{
+    align-self: flex-start;
+    padding: 20px 10px;
+}
+.related_articles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+}
+.relate_article{
+    background:red;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 18px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 5px;
+    width:300px;
+}
+.art_info{
+    text-align: left;
+}

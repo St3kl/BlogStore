@@ -9,6 +9,7 @@ import Intro from './components/Intro/Intro';
 import HomeBlog from './components/HomeBlog/HomeBlog';
 import Footer from './components/Footer/Footer';
 import HomeTemplate from './components/HomeTemplate/HomeTemplate';
+import Blog from './components/Blog/Blog';
 
 
 
@@ -47,6 +48,7 @@ const bg_info = [
      skillH={bg_info[0].skillHtml} skillC={bg_info[0].skillCss} skillJ={bg_info[0].skillJs}
      skillR={bg_info[0].skillReact} skillN={bg_info[0].skillNode} great={bg_info[0].great}></Hero>
      <Intro></Intro>
+     <Blog/>
      <HomeBlog></HomeBlog>
      <HomeTemplate  skillH={bg_info[0].skillHtml} skillC={bg_info[0].skillCss} skillJ={bg_info[0].skillJs}></HomeTemplate>
      <Footer></Footer>
