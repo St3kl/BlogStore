@@ -7,22 +7,22 @@ const HomeTemplate = (props)=>{
 
     return (
         <div className="ready_template">
-            <div className="template_title title">STORE</div>
+            <div className=" text template_title title">STORE</div>
             <div className="template_info">
-                <h2>Ready-made Templates</h2>
-                <h5>Skip the setup. Download professional templates and launch your project today.</h5>
+                <h2 className="b_title">Ready-made Templates</h2>
+                <h5 className="text">Skip the setup. Download professional templates and launch your project today.</h5>
 
             </div>
             {/* The most recent template in our shop */}
-             <div className="article_content">
+             <div className="article_content temp_container">
                 <div className="template">
                     <div className="img_template">
 
                     </div>
                     <div className="template_info">
-                        <div className="small_title">//Portafolio</div>
-                        <h4 className="temp_title">Dev portfolio — minimal dark</h4>
-                        <div className="info_temp">A sleek, dark-themed portfolio for developers. Sections for hero, projects, skills, and contact. Zero dependencies.</div>
+                        <div className=" small_title">//Portafolio</div>
+                        <h4 className=" temp_title">Dev portfolio — minimal dark</h4>
+                        <div className="text info_temp">A sleek, dark-themed portfolio for developers. Sections for hero, projects, skills, and contact. Zero dependencies.</div>
                         <div className="tools">
                             <div className="temp_skills">
                                 <div className="skill">{props.skillH}</div>
@@ -30,7 +30,7 @@ const HomeTemplate = (props)=>{
                                 <div className="skill">{props.skillJ}</div>
                             </div>
                             <div className="button_btn">
-                                <button className="btn"> use template →</button>
+                                <button className="btn temp_btn"> use template →</button>
                             </div>
                         </div>
                     </div>

@@ -7,6 +7,7 @@ position: relative;
 top:-180px;
 padding:16px 8px;
 padding-top: 50px;
+  color: #E6F1FB;
 }
 .article_content{
     display: flex;
@@ -14,7 +15,7 @@ padding-top: 50px;
     align-items: center;
     padding: 50px 8px;
     background: rgba(50, 83, 143, 0.795);
-    /* background: green; */
+    /* background: #378ADD; */
 }
 .errorSms{
     padding: 10px 18px;
@@ -29,7 +30,9 @@ padding-top: 50px;
     /* background: red; */
     padding: 25px 16px;
      background: rgba(12, 24, 129, 0.26);
-      box-shadow: 0 2px 5px rgba(12, 24, 129, 0.308);
+     background: #4ba5ff;
+      box-shadow: 0 2px 5px rgba(168, 176, 252, 0.438);
+      border-radius: 5px;
 }
 .topic{
     
@@ -38,7 +41,11 @@ padding-top: 50px;
     padding:5px 16px;
     border-radius: 8px;align-self: flex-start;
     font-size: 0.8rem;
-} .topic_article{
+}
+ h2{
+    font-size: 2rem;
+} 
+.topic_article{
     width: 600px;
     text-align: left;
    
@@ -59,5 +66,8 @@ padding-top: 50px;
     border-radius: 50%;
     background: red;
     margin: 10px;
+}
+.btn_blog{
+    background: #378ADD;
 }
 /* ===========------------------------ */
