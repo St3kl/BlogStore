@@ -5,6 +5,8 @@
     /* background: red; */
     margin-top: -180px;
     padding: 100px 0;
+    position:relative;
+    top: 90px;
 }
 /* .temp_container{
     background: transparent;

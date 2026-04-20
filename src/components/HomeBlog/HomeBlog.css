@@ -3,7 +3,8 @@
 /* ===========------------------------ */
 .home_blog{
  background: rgba(50, 83, 143, 0.795);
-position: relative;
+ /* after moving the blog_page add add the position relative */
+/* position: relative; */
 top:-180px;
 padding:16px 8px;
 padding-top: 50px;

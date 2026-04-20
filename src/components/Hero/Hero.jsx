@@ -9,11 +9,7 @@ const  Hero = (props) =>{
 
     return (
         <div  className="bannerHero">
-            {/* style={{
-            backgroundImage: `url(${heroBanner})`,
-            backgroundSize: "cover",
-            height: "100vh"
-        }} */}
+           
             {/* <img src={heroBanner} className="hero" alt="Website banner image"/> */}
             <div className="openDoc">
                 <p className="opening openH">{props.openH}</p>
